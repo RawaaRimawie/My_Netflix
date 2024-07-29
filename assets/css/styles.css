@@ -6,6 +6,10 @@
 
 }
 
+b, h1, h2, h3, h4, h5, h6, optgroup, strong {
+    font-weight: 500;
+}
+
 body{
     background: black;
     color: white;
@@ -63,6 +67,12 @@ nav button{
 
 
 }
+.lanbutton{
+    line-height: 1.25rem;
+    padding-top: 0.375rem;
+    padding-right: calc(2.25rem + 0rem);
+    padding-bottom: 0.375rem;
+}
 
 .lanbutton img{
     width: 10px;
@@ -105,7 +115,6 @@ nav button{
 }
 
 .email-add{
-    background: #fff;
     border-radius: 4px;
     display: flex;
     align-items: center;
@@ -114,10 +123,16 @@ nav button{
 }
 
 .email-add input{
-    flex: 1;
-    border: 0;
+    padding: 1.5rem 1rem 0.5rem ;
+    flex: 2;
     outline: 0;
     margin-left: 20px;
+    width: 40px;
+    background: rgba(22, 22, 22, 0.7);
+    border-radius: 0.25rem;
+    border-width: 0.0625rem;
+    border-color: rgba(128, 128, 128, 0.7)
+    
 }
 
 .email-add button{
@@ -188,6 +203,7 @@ nav button{
      text-align: center;
      font-size: 18px;
      background-color: black;
+     border-top: 6px solid #333 ;
 }
 
 .Questions h2{
