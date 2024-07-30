@@ -12,9 +12,8 @@
 
     <style>
         body {
-
             background-image: linear-gradient(rgba(0, 0, 0, 0.8),
-                    rgba(0, 0, 0, 0)), url(assets/images/im.png);
+                    rgba(0, 0, 0, 0)), url(assets/images/im.jpg);
         }
     </style>
 
@@ -27,24 +26,28 @@
         <nav>
             <img src="assets/images/logo.png" class="logo">
             <div>
-
-                <select class="lanbutton">
+            <div class="lang">
+                <select id="fla" name="LanguageSelect" data-uia="language-picker">
                     <option lang="ar" label="العربية" value="ar-PS">العربية</option>
                     <option lang="en" label="English" value="en-PS" selected="">English</option>
                 </select>
-                <button>Sign In</button>
+                <div aria-hidden="true" class="default-ltr-cache-emv211 ea3diy33">
+                </div>
             </div>
+              
+            </div>  <button>Sign In</button>
 
 
         </nav>
         <div class="header_content">
-            <h1>Unlimited movies, TV shows, and more</h1>
+            <div class="h1">
+            Unlimited movies, TV shows, and more</div>
             <h3>Watch anywhere. Cancel anytime.</h3>
             <p>Ready to watch? Enter your email to create or restart your membership.</p>
 
             <form class="email-add">
                 <input type="email" placeholder="Email address" required>
-                <button type="submit">Get Started</button>
+                <button type="submit"><b>Get Started</b></button>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="24" height="24" viewBox="0 0 24 24"
                     role="img" data-icon="ChevronRightStandard" aria-hidden="true">
                     <path fill-rule="evenodd" clip-rule="evenodd"
@@ -68,10 +71,14 @@
                 <h1>Enjoy on your TV</h1>
                 <p>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
             </div>
-
-            <div class="img_col">
-                <img src="assets/images/tv.png" class="Tv">
-            </div>
+            <div class="default-ltr-cache-7cljuy e9eyrqp3">
+                <div class="default-ltr-cache-bjn8wh">
+                    <img alt="" src="assets/images/tv.png" data-uia="nmhp-card-animation-asset-image" class="default-ltr-cache-1d3w5wq">
+                    <div data-uia="nmhp-card-animation-asset-motion" class="default-ltr-cache-m5f3qu e15c37ii14">
+                        <video data-uia="nmhp-card-animation-asset-video" autoplay="" playsinline="" muted="" loop="">
+                            <source src="assets/images/video-tv-0819.m4v" type="video/mp4">
+                        </video><div class="default-ltr-cache-0"></div>
+                        <div data-uia="nmhp-card-animation-asset-custom" aria-hidden="true" class="default-ltr-cache-0 e15c37ii13"></div></div></div></div>
         </div>
 
     </div>
@@ -81,15 +88,43 @@
     <!-- TEXT2 -->
     <div class="TVText">
         <div class="row">
+
+            <div class="img_col">
+                <img src="assets/images/mobile-0819.jpg" class="Tv">
+            
+
+
+                        <div class="div1">
+                            <div class="div2">
+                                <img data-uia="nmhp-card-animation-asset-animation" alt="" src="assets/images/boxshot.png" class="imm4">
+                                <div class="divvv"></div>
+                            </div>
+
+                            <div class="col3">
+                                <div class="div4">
+                                    <div id="" class="strang" data-uia="">Stranger Things</div>
+                                    <div id="" class="dow" data-uia="">Downloading...</div>
+
+                                </div>
+
+                                <div class="div5">
+                                    <div data-uia="nmhp-card-animation-asset-custom" aria-hidden="true" class="ico33n">
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+            </div>
+
+            </div>
             <div class="text_col">
                 <h1>Download your shows to watch offline</h1>
                 <p>Save your favorites easily and always have something to watch.</p>
             </div>
 
-            <div class="img_col">
-                <img src="assets/images/mobile-0819.jpg" class="Tv">
-            </div>
-        </div>
+
     </div>
     <div data-uia="nmhp-card-animation+downloadAndWatch" class="default-ltr-cache-v2xv94"></div>
 
@@ -106,6 +141,14 @@
 
             <div class="img_col">
                 <img src="assets/images/feature-3.png" class="Tv">
+                <div data-uia="nmhp-card-animation-asset-motion" class="default-ltr-cache-1626rqb e15c37ii10">
+                    <video data-uia="nmhp-card-animation-asset-video" autoplay="" playsinline="" muted="" loop="">
+                        <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices.m4v" type="video/mp4">
+                    </video><div class="default-ltr-cache-0"></div>
+                    <div data-uia="nmhp-card-animation-asset-custom" aria-hidden="true" class="default-ltr-cache-0 e15c37ii9">
+
+                    </div></div>
+
             </div>
         </div>
     </div>
@@ -119,7 +162,7 @@
             <div class="img_col">
                 <img src="assets/images/img-Kids.png" class="Tv">
             </div>
-        </div>
+
             <div class="text_col">
                 <h1>Create profiles for kids</h1>
                 <p>Send kids on adventures with their favorite characters in a space made just for them—free with your
@@ -127,6 +170,8 @@
 
                 </p>
             </div>
+
+        </div>
 
     </div>
     <div data-uia="nmhp-card-animation+downloadAndWatch" class="default-ltr-cache-v2xv94"></div>
@@ -210,12 +255,20 @@
 
         </div>
 
+        <div class="footer_content">
         <small>Ready to watch? Enter your email to create or restart your membership.</small>
 
         <form class="email-add">
             <input type="email" placeholder="Email address" required>
-            <button type="submit">Get Started</button>
+            <button type="submit"><b>Get Started</b></button>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="24" height="24" viewBox="0 0 24 24"
+                role="img" data-icon="ChevronRightStandard" aria-hidden="true">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M15.5859 12L8.29303 19.2928L9.70725 20.7071L17.7072 12.7071C17.8948 12.5195 18.0001 12.2652 18.0001 12C18.0001 11.7347 17.8948 11.4804 17.7072 11.2928L9.70724 3.29285L8.29303 4.70706L15.5859 12Z"
+                    fill="currentColor"></path>
+            </svg>
         </form>
+    </div>
 
 
     </div>
@@ -260,33 +313,17 @@
                     <a href="#">Contact Us</a>
 
                 </div>
-
-
-
-
-
-                <!-- <ul>
-                        <li><a href="">FAQ</a></li>
-                        <li><a href="">Account</a></li>
-                        <li><a href="">Investor Relations</a></li>
-                        <li><a href="">Ways to Watch</a></li>
-                        <li><a href="">Privacy</a></li>
-                        <li><a href="">Corporate Information</a></li>
-                        <li><a href="">Speed Test</a></li>
-                        <li><a href="">Only on Netflix</a></li>
-                        <li><a href="">Help Center</a></li>
-                        <li><a href=""> Media Center</a></li>
-                        <li><a href=""> Jobs</a></li>
-                        <li><a href="">Terms of Use</a></li>
-                        <li><a href="">Cookie Preferences</a></li>
-                        <li><a href="">Contact Us</a></li>
-                        <li><a href="">Legal Notices</a></li>
-
-                    </ul> -->
-
             </div>
 
-            <div class="default">Netflix Palestinian Territories</div>
+            <div class="lang">
+            <select id="fla" name="LanguageSelect" data-uia="language-picker">
+                <option lang="ar" label="العربية" value="ar-PS">العربية</option>
+                <option lang="en" label="English" value="en-PS" selected="">English</option>
+            </select>
+            <div aria-hidden="true" class="default-ltr-cache-emv211 ea3diy33">
+            </div>
+        </div>
+            <div class="copyright">Netflix Palestinian Territories</div>
 
     </footer>
 
