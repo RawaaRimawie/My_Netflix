@@ -43,7 +43,7 @@ nav{
     display: flex;
     align-items: ri;
     justify-content: space-between;
-    padding: 10px 0;
+    padding: 10px 50px;
 }
 
 .logo{
@@ -280,7 +280,7 @@ position: relative;
 .row{
     display: flex;
     width: 85%;
-    padding: 50px 0%;
+    padding: 100px 0%;
     margin-left: 10%;
     align-items: center;
     justify-content: space-evenly;
@@ -643,7 +643,7 @@ ea3diy34
 }
 
 .default-ltr-cache-1ypj6h82 {
-    margin-top: 2.85rem;
+    margin-top: 0rem;
   
 }
 
