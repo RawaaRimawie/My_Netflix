@@ -13,6 +13,7 @@ b, h1, h2, h3, h4, h5, h6, optgroup, strong .h1 {
     margin: 0;
     font-size: 3rem;
     font-weight: 900;
+    white-space: nowrap;
 }
 
 .netflix-sans-font-loaded {
@@ -369,8 +370,10 @@ position: relative;
     position: relative;
 }
 
-.default-ltr-cache-1d3w5wq {
-    width: 100%;
+.default-ltr-cache-ogx8b3 h2{
+    margin-left: 50%;
+    margin-top: -20%;
+
 }
 
 img {
@@ -448,21 +451,6 @@ img {
 
 
 
-
-
-
-
-
-
-
-/* .TVText h2{
-    font-size: 50px;
-    font-weight: 600;
-    margin-bottom: 20px;
-
-} */
-
-
 /* text h1 p  */
 
 .default-ltr-cache-tmevzf {
@@ -514,10 +502,16 @@ img {
    
 } */
 
+.default-ltr-cache-jpuyb8 .e9eyrqp8{
+    margin-left: 50%;
+    margin-top: -30%;
+}
 
 
-
-
+.default-ltr-cache-1d3w5wq {
+    width: 70%;
+    margin-left: 20%;
+}
 
 
 
@@ -804,20 +798,6 @@ svg:not(:root) {
     margin-top: 0;
     margin-left: 0.5rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .footer{
