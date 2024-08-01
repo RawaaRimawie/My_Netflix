@@ -191,13 +191,13 @@ nav .lang button{
 .default-ltr-cache-m5f3qu2 {
     z-index: -1;
     overflow: hidden;
-    width: 50%;
+    width: 100%;
     height: 100%;
-    max-width: 45%;
+    max-width: 55%;
     max-height: 50%;
     position: absolute;
     top: 34%;
-    left: 55%;
+    left: 50%;
     transform: translate(-50%, -50%);
 }
 
@@ -248,13 +248,14 @@ position: relative;
     overflow: hidden;
     width: 100%;
     height: 100%;
-    max-width: 50%;
+    max-width: 70%;
     max-height: 54%;
     position: absolute;
     top: 46%;
-    left: 55%;
+    left: 50%;
     transform: translate(-50%, -50%);
 }
+
 
 
 .default-ltr-cache-tmevzf .text_col .coi-md-12{
@@ -402,7 +403,7 @@ img {
 .default-ltr-cache-xfttou {
     overflow: hidden;
     position: absolute;
-    left: 50%;
+    left: 60%;
     bottom: 8%;
     transform: translateX(-50%);
     margin: 0 auto;
@@ -524,9 +525,27 @@ img {
 
 
 .default-ltr-cache-1d3w5wq {
-    width: 70%;
-    margin-left: 20%;
+    width: 90%;
+    margin-left: 5%;
 }
+
+
+
+.default-ltr-cache-1d3w5wq2 {
+    width: 100%;
+    margin-left: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
