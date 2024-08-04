@@ -20,8 +20,8 @@ strong .h1 {
 
 .h1 {
     margin: 0;
-    font-size: 3rem;
-    font-weight: 900;
+    font-size: 2.8rem;
+    font-weight: 800;
     white-space: nowrap;
 }
 
@@ -38,11 +38,13 @@ body {
 .header {
     width: 100%;
     height: 100vh;
-    background-image: url('assets/images/im.png');
     background-size: cover;
     background-position: center;
     padding: 10px 8%;
     position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0)), url(https://assets.nflxext.com/ffe/siteui/vlv3/826348c2-cdcb-42a0-bc11-a788478ba5a2/f7d17126-0ace-415d-bf4d-ba77b8bb628a/PS-en-20240729-POP_SIGNUP_TWO_WEEKS-perspective_WEB_ebd29469-b126-45fa-9931-7b63798f2d7e_small.jpg);
+    
 
 }
 
@@ -100,18 +102,13 @@ nav .lang button {
 }
 
 
-
-
-
-
-
 .header_content {
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    margin-top: 100px;
+   
 
 }
 
@@ -175,7 +172,7 @@ nav .lang button {
     height: 0.5rem;
     position: absolute;
     bottom: -0.5rem;
-    background-color: rgb(35, 35, 35);
+    /* background-color: rgb(35, 35, 35); */
 }
 
 .default-ltr-cache-7cljuy2 {
@@ -350,7 +347,7 @@ nav .lang button {
     overflow: hidden;
     position: absolute;
     left: 80%;
-    bottom: 12%;
+    bottom: 10%;
     transform: translateX(-50%);
     margin: 0 auto;
     background: rgb(0, 0, 0);
