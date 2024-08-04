@@ -214,13 +214,7 @@ nav .lang button {
 
 
 /* edit video2 */
-.default-ltr-cache-1yz1b0z {
-    width: 100%;
-    height: 0.5rem;
-    position: absolute;
-    bottom: -0.5rem;
-    background-color: rgb(35, 35, 35);
-}
+
 
 .default-ltr-cache-7cljuy {
     flex-basis: 50%;
@@ -857,3 +851,22 @@ svg:not(:root) {
     }
 
 }
+
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .header .TVText .Questions .footer {
+      width: 100%;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    .TVText .header .Questions .footer {
+      width: 80%;
+      padding: 0;
+    }
+    .header {
+      width: 100%;
+    }
+  }
+
