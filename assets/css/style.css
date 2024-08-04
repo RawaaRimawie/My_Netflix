@@ -15,7 +15,7 @@ h5,
 h6,
 optgroup,
 strong .h1 {
-    font-weight: 700;
+    font-weight: 800;
 }
 
 .h1 {
@@ -216,7 +216,6 @@ nav .lang button {
 
 /* edit video2 */
 
-
 .default-ltr-cache-7cljuy {
     padding: 0;
     z-index: 1;
@@ -350,8 +349,8 @@ nav .lang button {
 .default-ltr-cache-xfttou {
     overflow: hidden;
     position: absolute;
-    left: 60%;
-    bottom: 8%;
+    left: 80%;
+    bottom: 12%;
     transform: translateX(-50%);
     margin: 0 auto;
     background: rgb(0, 0, 0);
@@ -359,7 +358,7 @@ nav .lang button {
     align-items: center;
     width: 60%;
     min-width: 15rem;
-    padding: 0.25rem 0.65rem;
+    padding: 1rem 1rem;
     border: 2px solid rgba(128, 128, 128, 0.7);
     box-shadow: 0 0 2em 0 rgb(0, 0, 0);
     border-radius: 0.75rem;
@@ -478,7 +477,7 @@ nav .lang button {
 
 
 .default-ltr-cache-1d3w5wq2 {
-    width: 100%;
+    width: 140%;
     margin-left: 10%;
 }
 
@@ -733,7 +732,7 @@ svg:not(:root) {
 }
 
 .default-ltr-cache-ogx8b3 {
-    margin-left: 10%;
+    margin-left: 20%;
 }
 
 .default-ltr-cache-1jbflut[data-issplitform='false'] button {
@@ -816,12 +815,8 @@ svg:not(:root) {
     .logo {
         width: 100px;
     }
-
-    nav .bottom {
-        padding: 5px 10px;
-    }
-
-    nav .lanbutton {
+    
+    nav .lang  {
         padding: 4px 8px;
     }
 
@@ -829,14 +824,14 @@ svg:not(:root) {
 
 @media only screen and (max-width:500px) {
     /* For mobile phones: */
-    .header .TVText .Questions .footer {
+    .header .TVText .Questions footer {
       width: 100%;
     }
 }
 
 @media only screen and (max-width:800px) {
     /* For tablets: */
-    .TVText .header .Questions .footer {
+    .TVText .header .Questions footer {
       width: 80%;
       padding: 0;
     }
