@@ -452,7 +452,7 @@ nav .lang button {
 
 .default-ltr-cache-10i4ild {
     padding: 5%;
-    font-size: 1.125rem;
+    font-size: 1.7rem;
     font-weight: 400;
     margin-left: -5%;
 }
@@ -474,6 +474,10 @@ nav .lang button {
     margin-left: 5%;
 }
 
+.default-ltr-cache-1d3w5wq5 {
+    width: 190%;
+    margin-left: 5%;
+}
 
 
 .default-ltr-cache-1d3w5wq2 {
@@ -733,6 +737,7 @@ svg:not(:root) {
 
 .default-ltr-cache-ogx8b3 {
     margin-left: 20%;
+    margin-right: 10%;
 }
 
 .default-ltr-cache-1jbflut[data-issplitform='false'] button {
