@@ -691,20 +691,7 @@ svg {
 }
 
 .default-ltr-cache-emv211 {
-    color: transparent;
     position: absolute;
-    display: flex;
-    -webkit-box-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    justify-content: center;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-    border: 1px solid black;
-    user-select: none;
 }
 
 .default-ltr-cache-1jbflut button {
